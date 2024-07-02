@@ -5,7 +5,7 @@ jobs:
       - image: cimg/base:stable
     steps:
       - checkout
-      - run: echo "hello"
+      - run: echo "hooolaaa"
       - run: | 
          circleci-agent step halt
          exit 0
