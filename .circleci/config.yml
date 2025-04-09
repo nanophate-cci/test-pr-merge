@@ -8,4 +8,5 @@ jobs:
       - run: echo "hooolaaa"
       - run: | 
          circleci-agent step halt
+         echo "aaaaa"
          exit 0
