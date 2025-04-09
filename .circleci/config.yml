@@ -7,4 +7,6 @@ jobs:
       - checkout
       - run: | 
          circleci-agent step halt
+         echo "aaaa"
          exit 0
+         
